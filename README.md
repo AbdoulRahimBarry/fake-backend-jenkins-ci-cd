@@ -7,7 +7,7 @@ Infrastructure: 3 instances VM Centos(ami-0083662ba17882949): Build, Preprod && 
 
 NB: Apres le clone, changer juste le fichier hosts pour mettre les @IP des VMs
 
-*Demarrer la stack jenkins (jenkins-playbook.yml)
+****Demarrer la stack jenkins (jenkins-playbook.yml)
 
 via le service Cloud formation de AWS
 
