@@ -89,6 +89,13 @@
     - deploy
     - preprod
 
+- name: sleep for 300 seconds and continue with play
+  wait_for:
+    timeout: 300
+  tags:
+    - deploy
+    - preprod
+
 # deploy api  
 # La page se trouve dans battleboat je fait une copy dans le repetoir du container /etc/backend/static
 - name: Create a data container api
