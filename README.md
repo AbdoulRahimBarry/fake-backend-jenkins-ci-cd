@@ -1,6 +1,6 @@
 # Fake-backend-CD en utilisant Ansible && Jenkins
 
-fffffffffffffffffffffffffffffffffffffffffff
+[![Build Status](http://34.232.53.243/buildStatus/icon?job=fake-backend-jenkins_ci_cd)](http://34.232.53.243/job/fake-backend-jenkins_ci_cd/)
 
 Infrastructure: 3 instances VM Centos(ami-0083662ba17882949): Build, Preprod && Prod
 1 Serveurs Jenkins
